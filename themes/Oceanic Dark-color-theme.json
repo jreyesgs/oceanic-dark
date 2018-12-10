@@ -2,7 +2,7 @@
 	"name": "Oceanic Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1e1e1e",
+		"editor.background": "#1b2b34",
 		"editor.foreground": "#d4d4d4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -678,5 +678,18 @@
 				"foreground": "#b267e6"
 			}
 		}
+		,{
+			"scope": "storage.type.ts",
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		},
+		{
+			"scope": "storage.type.ts",
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		}
+		
 	]
 }
