@@ -1,0 +1,21 @@
+{
+    "name": "oceanic-dark",
+    "displayName": "Oceanic Dark",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oceanic Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oceanic Dark-color-theme.json"
+            }
+        ]
+    }
+}
