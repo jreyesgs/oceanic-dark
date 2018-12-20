@@ -46,6 +46,7 @@
     "editorWidget.background": "#21252B",
 		// "editor.background": "#1b2b34",
 		"editor.background": "#1C1F24",
+		
 		"editor.foreground": "#d4d4d4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -756,8 +757,6 @@
 		{
 			"name": "HTML punctuation",
 			"scope": [
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html",
 				"punctuation.separator.key-value.html"
 			],
 			"settings": {
@@ -767,6 +766,8 @@
 		{
 			"name": "HTML String quoted",
 			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
 				"string.quoted.double.html",
 				"string.quoted.single.html"
 			],
