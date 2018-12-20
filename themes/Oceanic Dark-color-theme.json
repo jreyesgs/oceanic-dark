@@ -1,5 +1,4 @@
 {
-	"author": "jreyesgs",
 	"name": "Oceanic Dark",
 	"type": "dark",
 	"colors": {
@@ -405,7 +404,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#92b8ea"
 			}
 		},
 		{
@@ -899,7 +898,112 @@
 			"settings": {
 				"foreground": "#C3E88D"
 			}
-		}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				"storage.type.js",
+				"keyword.operator.new.js",
+				"variable.language.this.js",
+				"keyword.control.conditional.js",
+				"storage.type.function.js",
+				"keyword.control.loop.js",
+				"keyword.control.flow.js"
+			
+			],
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				"variable.other.readwrite.js",
+
+			
+			],
+			"settings": {
+				"foreground": "#f99157"
+			}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				"keyword.operator.assignment.js",
+				"meta.brace.round.js",
+				"punctuation.terminator.statement.js",
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.begin.js",
+				"meta.objectliteral.js",
+				"meta.object.member.js",
+				"punctuation.definition.block.js",
+				"meta.array.literal.js",
+				"keyword.operator.arithmetic.js",
+				"keyword.operator.relational.js",
+				"keyword.operator.ternary.js",
+				"keyword.operator.relational.js",
+				"meta.object.member.js",
+				"punctuation.separator.key-value.js",
+				"keyword.operator.logical.js",
+				"punctuation.separator.comma.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+				"keyword.operator.comparison.js",
+				"punctuation.separator.parameter.js",
+				"punctuation.accessor.js"
+			
+			],
+			"settings": {
+				"foreground": "#cdd3de"
+			}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				"meta.object-literal.key.js",
+				"support.function.dom.js",
+				"entity.name.type.js",
+				"support.function.js",
+				"variable.other.object.property.js",
+				"support.function.console.js",
+				"variable.other.property.js",
+				"entity.name.function.js",
+				"entity.name.function.js",
+				"support.variable.property.dom.js",
+				"variable.other.readwrite.js",
+				"support.function.json.js"
+				
+				
+			],
+			"settings": {
+				"foreground": "#92b8ea"
+			}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				"string.quoted.double.js",
+				"string.quoted.single.js"
+				
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "JavaScript",
+			"scope": [
+				
+				"support.class.console.js",
+				"variable.other.object.js",
+				"support.variable.dom.js",
+				"support.constant.json.js"
+			
+			],
+			"settings": {
+				"foreground": "#6f91be"
+			}
+		},
 		
 	]
 }
