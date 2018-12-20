@@ -689,7 +689,49 @@
 			"settings": {
 				"foreground": "#ec5f67"
 			}
-		}
+		},
+		{
+			"name": "HTML Tag",
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"entity.name.tag.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		},
+		{
+			"name": "HTML attribute",
+			"scope": [
+				"entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#99c794"
+			}
+		},
+		{
+			"name": "HTML punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.separator.key-value.html"
+			],
+			"settings": {
+				"foreground": "#cdd3de"
+			}
+		},
+		{
+			"name": "HTML String quoted",
+			"scope": [
+				"string.quoted.double.html",
+				"string.quoted.single.html"
+			],
+			"settings": {
+				"foreground": "#fac863"
+			}
+		},
+		
 		
 	]
 }
