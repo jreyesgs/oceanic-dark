@@ -731,7 +731,131 @@
 				"foreground": "#fac863"
 			}
 		},
+		{
+			"name": "PHP Others",
+			"scope": [
+				"variable.other.php",
+				"punctuation.definition.variable.php",
+			],
+			"settings": {
+				"foreground": "#f99157"
+			}
+		},
+		{
+			"name": "PHP Tag and others",
+			"scope": [
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.php",
+				"variable.language.this.php",
+			],
+			"settings": {
+				"foreground": "#FFA573"
+			}
+		},
 		
+		{
+			"name": "PHP Keyword and others",
+			"scope": [
+				"keyword.control.else.php",
+				"keyword.control.foreach.php",
+				"keyword.control.endforeach.php",
+				"keyword.control.if.php",
+				"keyword.control.endif.php",
+				"punctuation.definition.begin.bracket.round.php",
+				"punctuation.definition.end.bracket.round.php",
+				"entity.name.function.php",
+				"punctuation.definition.arguments.begin.bracket.round.php",
+				"punctuation.definition.arguments.end.bracket.round.php",
+				"support.function.string.php",
+				"variable.other.property.php",
+				"support.function.construct.php",
+				"support.function.array.php",
+				"support.function.calendar.php"
+			],
+			"settings": {
+				"foreground": "#1BB2AF"
+			}
+		},
+		{
+			"name": "PHP punctuation and others",
+			"scope": [
+				"punctuation.terminator.statement.php",
+				"punctuation.terminator.expression.php",
+				"keyword.operator.class.php",
+				"support.function.construct.output.php",
+				"keyword.operator.logical.php"
+			],
+			"settings": {
+				"foreground": "#58e2e0"
+			}
+		},
+		{
+			"name": "PHP punctuation and others",
+			"scope": [
+				// "keyword.operator.assignment.php",
+				"punctuation.separator.delimiter.php",
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+				"punctuation.definition.string.end.php",
+				"punctuation.definition.string.begin.php",
+				"keyword.operator.star.sql"
+				
+
+			],
+			"settings": {
+				"foreground": "#cdd3de"
+			}
+		},
+		{
+			"name": "PHP Storage and others",
+			"scope": [
+				"storage.modifier.php",
+				"storage.type.function.php",
+				"storage.modifier.extends.php",
+				"storage.type.class.php",
+				"keyword.operator.string.php",
+				"keyword.operator.assignment.php",
+				"keyword.operator.comparison.php",
+				"keyword.operator.arithmetic.php",
+				"keyword.operator.math.sql",
+				"punctuation.definition.string.begin.sql"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "SQL",
+			"scope": [
+				"support.function.aggregate.sql",
+				"keyword.other.alias.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL.create.II.sql",
+				"keyword.operator.comparison.sql",
+				"support.function.system.sql",
+				"punctuation.definition.string.begin.sql",
+				"punctuation.definition.string.end.sql",
+				"keyword.operator.math.sql",
+				"keyword.other.sql",
+				"support.function.ranking.sql",
+				"punctuation.section.scope.end.sql",
+				"punctuation.section.scope.begin.sql"
+			
+			],
+			"settings": {
+				"foreground": "#7b9750"
+			}
+		},
+		{
+			"name": "SQL others",
+			"scope": [
+				"constant.numeric.sql",
+			
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		}
 		
 	]
 }
