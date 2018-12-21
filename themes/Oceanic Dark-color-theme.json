@@ -836,18 +836,21 @@
 		{
 			"name": "PHP punctuation and others",
 			"scope": [
-				// "keyword.operator.assignment.php",
 				"punctuation.separator.delimiter.php",
-				"punctuation.definition.string.begin.php",
-				"punctuation.definition.string.end.php",
-				"punctuation.definition.string.end.php",
-				"punctuation.definition.string.begin.php",
 				"keyword.operator.star.sql"
-				
-
 			],
 			"settings": {
 				"foreground": "#cdd3de"
+			}
+		},
+		{
+			"name": "PHP punctuation and others",
+			"scope": [
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+			],
+			"settings": {
+				"foreground": "#7b9750"
 			}
 		},
 		{
@@ -883,8 +886,7 @@
 				"keyword.other.sql",
 				"support.function.ranking.sql",
 				"punctuation.section.scope.end.sql",
-				"punctuation.section.scope.begin.sql"
-			
+				"punctuation.section.scope.begin.sql",
 			],
 			"settings": {
 				"foreground": "#7b9750"
