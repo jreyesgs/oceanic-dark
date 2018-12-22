@@ -677,19 +677,86 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
-		}
-		,{
+		},
+		{
+			"name": "TypeScript",
 			"scope": "storage.type.ts",
 			"settings": {
 				"foreground": "#ec5f67"
 			}
 		},
 		{
-			"scope": "storage.type.ts",
+			"scope": [
+						
+						"meta.var.expr.ts",
+						"variable.language.this.ts",
+						"keyword.operator.new.ts",
+						"meta.block.ts meta.var.expr.ts",
+							],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#ec5f67"
 			}
+		},
+		{
+			"scope": [
+							"string.quoted.single.ts",
+							"punctuation.definition.string.begin.ts",
+							"punctuation.definition.string.end.ts"
+								],
+			
+			"settings": {
+				"foreground": "#fac863"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.comma.ts",
+				"punctuation.separator.key-value.ts",
+				"meta.brace.square.ts",
+				"punctuation.definition.block.ts",
+				"meta.brace.round.ts",
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.end.ts",
+				"punctuation.terminator.statement.ts",
+				"keyword.operator.assignment.ts",
+				"punctuation.accessor.ts"
+			],
+			"settings": {
+				"foreground": "#CDD3DE"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.key.ts",
+				"entity.name.function.ts",
+				"variable.other.property.ts",
+				"support.function.ts",
+				"entity.name.type.ts"
+			],
+			"settings": {
+				"foreground": "#99c794"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant.ts",
+				"meta.definition.variable.ts", 
+				"variable.other.readwrite.ts"
+			],
+			"settings": {
+				"foreground": "#f99157"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.ts",
+			],
+			"settings": {
+				"foreground": "#6699cc"
+			}
 		}
+		
 		
 	]
 }
