@@ -28,7 +28,6 @@
 		"titleBar.inactiveForeground": "#9DA5B4",
 		"dropdown.background": "#353b45",
 		"dropdown.border": "#181A1F",
-		"editor.background": "#282C34",
 		"editor.lineHighlightBackground": "#2C313A",
 		"editor.selectionBackground": "#3E4451",
 		"editorCursor.foreground": "#528BFF",
@@ -44,7 +43,6 @@
 		"editorSuggestWidget.border": "#181A1F",
 		"editorSuggestWidget.selectedBackground": "#2C313A",
 		"editorWidget.background": "#21252B",
-		// "editor.background": "#1b2b34",
 		"editor.background": "#1C1F24",
 
 		"editor.foreground": "#d4d4d4",
@@ -109,11 +107,27 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Keyword, Storage",
 			"scope": [
 				"keyword.control",
-				"constant.other.color",
+			],
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
 				"punctuation",
+			],
+			"settings": {
+				"foreground": "#7b9750"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"constant.other.color",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -140,16 +154,25 @@
 			}
 		},
 		{
+			"name": "Function",
+			"scope": [
+				"source.python",
+			],
+			"settings": {
+				"foreground": "#ec5f67"
+			}
+		},
+		{
 			"name": "Function, Special Method",
 			"scope": [
+				"variable.function",
 				"entity.name.function",
 				"meta.function-call",
-				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#1BB2AF"
 			}
 		},
 		{
@@ -972,6 +995,7 @@
 				"support.function.json.js",
 				"variable.other.constant.property.js"
 
+
 			],
 			"settings": {
 				"foreground": "#1BB2AF"
@@ -1007,7 +1031,8 @@
 		},
 		{
 			"scope": [
-				"variable.other.constant.object.property.js"
+				"variable.other.constant.object.property.js",
+				"support.constant.math.js"
 			],
 			"settings": {
 				"foreground": "#f99157"
@@ -1072,7 +1097,8 @@
 			"scope": [
 				"variable.other.constant.ts",
 				"meta.definition.variable.ts",
-				"variable.other.readwrite.ts"
+				"variable.other.readwrite.ts",
+				"variable.other.constant.object.property.js"
 				
 			],
 			"settings": {
@@ -1085,6 +1111,31 @@
 			"settings": {
 				"foreground": "#6699cc"
 			}
+		},
+		{
+			"name": "Python",
+			"scope": [
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python"
+			],
+			"settings": {
+				"foreground": "#58e2e0"
+			}
+		},
+		{
+			"name": "Python",
+			"scope": [
+				"punctuation.separator.arguments.python",
+				"punctuation.separator.period.python",
+				"punctuation.separator.colon.python",
+				"punctuation.section.function.begin.python"
+			],
+			"settings": {
+				"foreground": "#CDD3DE"
+			}
 		}
+
 	]
 }
