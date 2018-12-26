@@ -908,7 +908,8 @@
 				"keyword.control.conditional.js",
 				"storage.type.function.js",
 				"keyword.control.loop.js",
-				
+				"keyword.control.switch.js",
+				"variable.other.readwrite.js"
 			],
 			"settings": {
 				"foreground": "#ec5f67"
@@ -968,8 +969,8 @@
 				"entity.name.function.js",
 				"support.variable.property.dom.js",
 				"meta.brace.round.js",
-				"support.function.json.js"
-
+				"support.function.json.js",
+				"variable.other.constant.property.js"
 
 			],
 			"settings": {
@@ -996,11 +997,20 @@
 				"variable.other.object.js",
 				"support.variable.dom.js",
 				"support.constant.json.js",
-				"punctuation.definition.block.js"
-
+				"punctuation.definition.block.js",
+				"support.type.object.module.js"
+				
 			],
 			"settings": {
 				"foreground": "#58e2e0"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant.object.property.js"
+			],
+			"settings": {
+				"foreground": "#f99157"
 			}
 		},
 		{
