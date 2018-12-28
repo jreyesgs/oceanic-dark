@@ -1163,7 +1163,9 @@
 			"name": "CSS #58e2e0",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-element.css",
+				"support.type.property-name.media.css",
+				"support.type.property-name.media.scss"
 			],
 			"settings": {
 				"foreground": "#58e2e0"
@@ -1206,7 +1208,9 @@
 			"name": "CSS #ec5f67",
 			"scope": [
 				"entity.name.tag.css",
-				"entity.name.tag.reference.scss"
+				"entity.name.tag.reference.scss",
+				"punctuation.definition.keyword.scss",
+				"punctuation.definition.keyword.css"
 			],
 			"settings": {
 				"foreground": "#ec5f67"
@@ -1215,3 +1219,4 @@
 
 	]
 }
+
