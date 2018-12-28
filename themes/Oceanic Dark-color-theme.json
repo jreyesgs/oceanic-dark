@@ -986,9 +986,8 @@
 				"support.variable.property.dom.js",
 				"meta.brace.round.js",
 				"support.function.json.js",
-				"variable.other.constant.property.js"
-
-
+				"variable.other.constant.property.js",
+				"support.variable.property.js"
 			],
 			"settings": {
 				"foreground": "#1BB2AF"
@@ -999,8 +998,6 @@
 			"scope": [
 				"string.quoted.double.js",
 				"string.quoted.single.js",
-				
-
 			],
 			"settings": {
 				"foreground": "#C3E88D"
