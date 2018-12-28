@@ -988,6 +988,7 @@
 				"support.function.json.js",
 				"variable.other.constant.property.js",
 				"support.variable.property.js"
+
 			],
 			"settings": {
 				"foreground": "#1BB2AF"
@@ -998,6 +999,8 @@
 			"scope": [
 				"string.quoted.double.js",
 				"string.quoted.single.js",
+				
+
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -1179,10 +1182,24 @@
 			"name": "CSS #fac863",
 			"scope": [
 				"entity.other.attribute-name.class.css",
-				"punctuation.definition.entity.css"
+				"punctuation.definition.entity.css",
+				"punctuation.section.property-list.begin.bracket.curly.scss",
+				"punctuation.section.property-list.end.bracket.curly.scss",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css",
 			],
 			"settings": {
 				"foreground": "#fac863"
+			}
+		},
+		{
+			"name": "CSS #c9a662",
+			"scope": [
+				"punctuation.terminator.rule.scss",
+				"punctuation.terminator.rule.css"
+			],
+			"settings": {
+				"foreground": "#c9a662"
 			}
 		},
 		{
