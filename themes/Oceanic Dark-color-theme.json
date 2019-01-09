@@ -1104,12 +1104,31 @@
 			"settings": {
 				"foreground": "#f99157"
 			}
-		}, {
+		}, 
+		{
 			"scope": [
 				"variable.other.object.ts",
 			],
 			"settings": {
 				"foreground": "#6699cc"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow.python",
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#1BB2AF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#7b9750"
 			}
 		},
 		{
@@ -1121,7 +1140,9 @@
 				"punctuation.definition.parameters.end.python",
 				"keyword.control.import.python",
 				"punctuation.parenthesis.begin.python",
-				"punctuation.parenthesis.end.python"
+				"punctuation.parenthesis.end.python",
+				"support.type.python",
+				
 			],
 			"settings": {
 				"foreground": "#58e2e0"
@@ -1133,7 +1154,8 @@
 				"punctuation.separator.arguments.python",
 				"punctuation.separator.period.python",
 				"punctuation.separator.colon.python",
-				"punctuation.section.function.begin.python"
+				"punctuation.section.function.begin.python",
+				"punctuation.separator.element.python"
 			],
 			"settings": {
 				"foreground": "#CDD3DE"
@@ -1219,4 +1241,3 @@
 
 	]
 }
-
