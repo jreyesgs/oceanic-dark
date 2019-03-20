@@ -1067,7 +1067,17 @@
 			"settings": {
 				"foreground": "#fac863"
 			}
-		}, {
+		},
+		{
+			"name": "SCSS #C792EA",
+			"scope": [
+				"variable.scss"
+			],
+			"settings": {
+				"foreground": "#C792EA"				
+			}
+		},
+		{
 			"scope": [
 				"punctuation.separator.comma.ts",
 				"punctuation.separator.key-value.ts",
