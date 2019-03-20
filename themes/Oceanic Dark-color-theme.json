@@ -305,7 +305,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#99c794"
 			}
 		},
 		{
@@ -499,7 +499,8 @@
 			"name": "Markdown - Plain",
 			"scope": [
 				"text.html.markdown",
-				"punctuation.definition.list_item.markdown"
+				"punctuation.definition.list_item.markdown",
+				"meta.tag"
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
